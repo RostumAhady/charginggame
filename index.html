@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>SS3 Goku</title>
+</head>
+<body>
+    <div class="box">
+        <div class="textCont">
+            <h1 id="instructions">SPAM "A" ON YOUR KEYBOARD TO CHARGE UP!</h1>
+            <h2 id="countdown"></h2>
+        </div>
+        <img class="image" src="img/goku.gif">
+        <div class="container">
+            <div class="bar">
+                <div class="lines"></div>
+                <div class="progressBar"></div>
+            </div>
+            <div class="keys">
+                <div data-key="65" class="key">
+                    <kbd>PRESS A</kbd >
+            </div>
+        </div>
+    </div>
+    <div class="gameOver">
+        <div class="textCont">
+            <h1>Game Over</h1>
+            <figure class="figure">
+                    <div>
+                      <span>Try Again?</span>
+                      <span>Let's Go!</span>
+                    </div>
+            </figure>
+        </div>
+    </div>
+    
+    <audio preload="auto" data-key="65" src="audio/charging.mp3"></audio>
+    <audio preload="auto" id="aura" src="audio/aura.mp3"></audio>
+    <audio preload="auto" id="now" src="audio/now.mp3"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
