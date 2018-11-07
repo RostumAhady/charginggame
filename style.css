@@ -5,7 +5,7 @@ body, html{
     font-family: sans-serif;
 }
 .box{
-    background: url('htttps://rostumahady.github.io/charginggame/img/namek.png') no-repeat 0;
+    background: url('https://rostumahady.github.io/charginggame/img/namek.png') no-repeat 0;
     background-size: cover;
     background-position: center;
     height: 100vh;
